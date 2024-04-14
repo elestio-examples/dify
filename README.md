@@ -10,14 +10,14 @@ Deploy Dify server with CI/CD on Elestio
 
 # Once deployed ...
 
-You can open Dify ADMIN UI here:
+You can open Dify here:
 
     URL: https://[CI_CD_DOMAIN]/admin
-    email: root
+    email: [ADMIN_EMAIL]
     password: [ADMIN_PASSWORD]
 
-You can open Dify UI here:
+You can open pgAdmin here:
 
-    URL: https://[CI_CD_DOMAIN]
-    email: root
+    URL: https://[CI_CD_DOMAIN]:10091
+    email: [ADMIN_EMAIL]
     password: [ADMIN_PASSWORD]
