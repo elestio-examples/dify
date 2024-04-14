@@ -18,6 +18,6 @@ You can open Dify here:
 
 You can open pgAdmin here:
 
-    URL: https://[CI_CD_DOMAIN]:10091
+    URL: https://[CI_CD_DOMAIN]:7317
     email: [ADMIN_EMAIL]
     password: [ADMIN_PASSWORD]

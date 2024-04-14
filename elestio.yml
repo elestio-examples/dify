@@ -9,7 +9,7 @@ ports:
     isAuth: false
   - protocol: "HTTPS"
     targetProtocol: "HTTP"
-    listeningPort: "443"
+    listeningPort: "7317"
     targetPort: "10091"
     targetIP: "172.17.0.1"
     public: true
@@ -61,7 +61,7 @@ webUI:
     label: "Dify"
     login: "[ADMIN_EMAIL]"
     password: "[ADMIN_PASSWORD]"
-  - url: "https://[CI_CD_DOMAIN]:10091"
+  - url: "https://[CI_CD_DOMAIN]:7317"
     label: "pgAdmin"
     login: "[ADMIN_EMAIL]"
     password: "[ADMIN_PASSWORD]"
