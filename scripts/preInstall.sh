@@ -1,6 +1,14 @@
 #set env vars
 set -o allexport; source .env; set +o allexport;
 
+git clone https://github.com/langgenius/dify.git dify
+
+mv ./dify/docker/nginx ./
+mv ./dify/docker/ssrf_proxy ./
+mv ./dify/docker/volumes ./
+
+rm -rf ./dify
+
 SECRET_KEY=$(openssl rand -base64 42)
 WEAVIATE_API_KEY=$(openssl rand -base64 42)
 
