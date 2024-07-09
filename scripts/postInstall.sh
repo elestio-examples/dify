@@ -3,7 +3,7 @@ set -o allexport; source .env; set +o allexport;
 
 #wait until the server is ready
 echo "Waiting for software to be ready ..."
-sleep 75s;
+sleep 180s;
 
 curl https://${DOMAIN}/console/api/setup \
   -H 'accept: */*' \
