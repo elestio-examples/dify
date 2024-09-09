@@ -38,8 +38,8 @@ rm post.txt
 
 
 cat << EOT >> ./.env
-
-SMTP_HOST=tuesday.mxrouting.net
+MAIL_TYPE=smtp
+SMTP_SERVER=tuesday.mxrouting.net
 SMTP_PORT=587
 SMTP_USERNAME=${SMTP_LOGIN}
 SMTP_PASSWORD=${SMTP_PASSWORD}
