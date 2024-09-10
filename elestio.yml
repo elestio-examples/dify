@@ -32,7 +32,8 @@ environments:
     value: "random_password"
   - key: "DOMAIN"
     value: "[CI_CD_DOMAIN]"
-
+  - key: "APP_WEB_URL"
+    value: "https://[CI_CD_DOMAIN]"
 config:
   runTime: "dockerCompose"
   version: ""
